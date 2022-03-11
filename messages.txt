@@ -1,0 +1,56 @@
+What I am trying to do is figure out where the highest volume of a product would be my variables are: 1. date 2. area of operations 3. condition (of the area which I have rated 1 being smooth condition to 7 roughest condition 4. direction of wind 5. the current of sea 6. temperature (which we can omit) 7. volume of product obtained   
+1:10 PM
+ 8. moon phase (which can also be omitted or added later on as much of the data is incomplete but can easily be found online based on the dates)   
+1:11 PM
+ the machine learning/AI program I wanted to create is to show as accurately as possible where the area in a date that has been inpure would have the most volume   
+1:12 PM
+ is this something you can do? 
+1:12 PM
+ so based on those variables, the machine learning python based program where the highest volume would be based on the given data for the area 
+ 
+ 
+ based on the date lets say hypothetically if I input the date April 5, 2021 it would tell me where highest probability of higher volume would be  
+ 
+ 
+ my data consisting of those variables equates to 4582 rows per year  
+1:40 PM
+ I have around 30,000 rows of data 
+1:40 PM
+ on hand now I have 7 years I am still encoding the 8th year that would help also 
+ 
+ 
+ I tried to get 10 years but was unable to procure those 
+1:42 PM
+ when can you start on this 
+ 
+ 1. Date is when operation was conducted  
+1:51 PM
+ 2. area= code names of area  of operations conducted  
+ 
+ 3. volume = amount of material obtained at that point in time  
+1:52 PM
+ 4. condition = conditions of sea at that given time (1= smooth, 2 smooth to slight 3 = slight, 4 = slight to moderate, 5 = moderate, 6, = moderate to rough 7 = rough 
+1:55 PM
+ 5. direction of wind = what direction of wind was at the time of operations NE for north east, SW for South west, stationary wind for no wind at all) 
+1:56 PM
+ 6. temperature = temperature of water  (but since data set is lacking we can omit) 
+1:57 PM
+ 7. moon phase = phase of moon at time of operation  
+ 
+ 8, Current = direction of current (wsw= west south west, se- south east, nw = northwest, T = stationary or still)
+ 
+ 
+ 
+ 
+ 
+ 
+ =========================================================================================================
+ Hi Sajid, just some clarifications. Since we are dealing with nature and movements of water things will be varied. For wind direction Stationary means still no movement of win but stationary / varied direction (cloudy) means that the wind at that period could change and become strong with no fixed direction and could affect current as well 
+ ==============================================================================================
+ also on the newer data, the 2020 and 2021 newer equipment was used so we were able to use a current indicator. For example the current for 2020-202 instead of NW, NE, would be displayed as: .4WSW/0.2NW/0.3W this is due to the technology being utilized which shows currents at different depths we measure them in three categories: 1. Top (25 meters) 2. Middle (35055 meters) 3. Bottom (40-70 meters)  so (top current /middle current /bottom current) 
+11:04 AM
+ the depth itself varies as the sea floor changes and current indicator could detect up to 2000meters which is not practical for our use just some additional information. 
+11:05 AM
+ I am still currently verifying the information again 
+ 
+ ===============================================================================================================
